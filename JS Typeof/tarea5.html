@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h2>   Javascript TypeOf </h2>
+
+    <p id="demo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple"];
+document.getElementById("demo").innerHTML = isArray(fruits);
+
+function isArray(myArray) {
+  return myArray.constructor.toString().indexOf("Array") > -1;
+}
+</script>
+</body>
+</html>

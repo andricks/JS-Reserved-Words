@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h2>    Javascript   String search</h2>
+   
+    <p>Perform a global search for "ain":</p>
+    <p>  or can i use another global gi  </p>
+
+    <p id="demo"></p>
+    
+    <script>
+    let text = "The rain in SPAIN stays mainly in the plain"; 
+    const myArr = text.match(/ain/g );
+    document.getElementById("demo").innerHTML = myArr.length + " " + myArr;
+    </script>
+    
+
+</body>
+</html>

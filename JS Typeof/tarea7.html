@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h2>   Javascript TypeOf </h2>
+    <p id="demo"></p>
+
+    <script>
+    const myDate = new Date();
+    document.getElementById("demo").innerHTML = isDate(myDate);
+    
+    function isDate(myDate) {
+      return myDate.constructor.toString().indexOf("Date") > -1;
+    }
+    </script>
+    
+</body>
+</html>

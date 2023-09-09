@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h2>   Javascript Modules</h2>
+
+    <p id="demo"></p>
+
+<script type="module">
+import { name, age } from "./person.js";
+
+let text = "My name is " + name + ", I am " + age + ".";
+
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>

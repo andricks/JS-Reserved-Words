@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h2> JavaScript Scope</h2>
+
+    <p id="demo"></p>
+
+<script>
+myFunction();
+// code here can use carName as a global variable
+document.getElementById("demo").innerHTML = "I can display " + carName;
+
+function myFunction() {
+  carName = "Volvo";
+}
+</script>
+</body>
+</html>
